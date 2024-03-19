@@ -12,6 +12,11 @@
     "ckeditor5",
     "customeditor"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivansazdovski/react-ckeditor5-custom.git"
+  },
+  "homepage": "https://github.com/ivansazdovski/react-ckeditor5-custom#readme",
   "dependencies": {
     "@ckeditor/ckeditor5-autoformat": "41.2.1",
     "@ckeditor/ckeditor5-basic-styles": "41.2.1",

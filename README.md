@@ -49,12 +49,13 @@ const MyApp = () => {
 	return (
 		<>
 			<CKEditor
-				editor={Editor}
-				config={{
-				    toolbar: [
-                        'undo', 'redo', '|', 'fontSize', 'fontColor', 'fontBackgroundColor', '|', 
-					    'bold', 'italic', 'underline'
-                    ]
+                editor={Editor}
+                config={{
+                    toolbar: [
+                        'undo', 'redo', '|', 
+                        'fontSize', 'fontColor', 'fontBackgroundColor', '|', 
+                        'bold', 'italic', 'underline'
+                        ]
 	            }}
 	            data={'This is my content'}
 	            onChange={(event) => {
@@ -122,7 +123,7 @@ TODO
 Licensed under the terms of the [MIT License](http://en.wikipedia.org/wiki/MIT_License). For full details about the license, please check the `LICENSE.md` file or visit [CKEditor5's](https://ckeditor.com/docs/ckeditor5/latest/support/licensing/license-and-legal.html) page.
 
 ## Screenshots
-![Screenshot of Application](images\Editor1.png)
-![Screenshot of Application](images\Editor2.png)
-![Screenshot of Application](images\Editor3.png)
-![Screenshot of Application](images\Editor4.png)
+![Editor1](https://i.postimg.cc/ZRF9HYjJ/Editor1.png)
+![Editor2](https://i.postimg.cc/fyzVr4gm/Editor2.png)
+![Editor3](https://i.postimg.cc/mkmPxd0q/Editor3.png)
+![Editor4](https://i.postimg.cc/44P7hdm5/Editor4.png)

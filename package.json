@@ -2,7 +2,7 @@
   "name": "react-ckeditor5-custom",
   "author": "Ivan Sazdovski",
   "description": "A custom editor build of CKEditor5, based on the predefined classic editor build, for React implementation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",

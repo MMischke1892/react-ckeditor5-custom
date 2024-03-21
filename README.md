@@ -110,7 +110,7 @@ In order to add / remove features from the toolbar, we can specify which feature
 Here is the list of all currently available features that can be used:
 ```js
 toolbar: [
-    'undo', 'redo', 'fontFamily','fontSize', 'fontColor',   'fontBackgroundColor', 'bold', 'italic', 'underline',   'strikethrough', 'link', 'imageUpload', 'insertTable', 'blockQuote', 'bulletedList', 'numberedList', 'outdent', 'indent', 'mediaEmbed', 'codeBlock', 'subscript', 'superscript', 'strikethrough', 'code', 'sourceEditing'
+    'undo', 'redo', 'fontFamily', 'fontSize', 'fontColor', 'fontBackgroundColor', 'bold', 'italic', 'underline', 'strikethrough', 'link', 'imageUpload', 'insertTable', 'blockQuote', 'bulletedList', 'numberedList', 'outdent', 'indent', 'mediaEmbed', 'codeBlock', 'subscript', 'superscript', 'strikethrough', 'code', 'sourceEditing'
 ]
 ```
 ## Adding or removing plugins

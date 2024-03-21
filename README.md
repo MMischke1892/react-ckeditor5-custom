@@ -28,12 +28,12 @@ Here is a [list](https://ckeditor.com/docs/ckeditor5/latest/installation/getting
 
 ## Installation
 In order to use CKEditor5, we need to install two packages. Open a terminal in your project and run the following commands to install both of them:
+
 1. Official [CKEditor 5](https://ckeditor.com/docs/ckeditor5/latest/installation/integrations/react.html) rich text editor component for React
-<br>
 `npm i @ckeditor/ckeditor5-react`
-3. This custom build of the CKEditor5 for React
-<br>
-    `npm i react-ckeditor5-custom`
+
+2. This custom build of the CKEditor5 for React
+`npm i react-ckeditor5-custom`
 
 ## Usage
 Once we have both of the needed packages installed, we can start implementing the editor into our project. 
@@ -49,19 +49,19 @@ const MyApp = () => {
 	return (
 		<>
 			<CKEditor
-                editor={Editor}
-                config={{
-                    toolbar: [
-                        'undo', 'redo', '|', 
-                        'fontSize', 'fontColor', 'fontBackgroundColor', '|', 
-                        'bold', 'italic', 'underline'
-                        ]
-	            }}
-	            data={'This is my content'}
-	            onChange={(event) => {
-		            console.log(event)
-	            }}
-            />
+				editor={Editor}
+				config={{
+					toolbar: [
+						'undo', 'redo', '|', 
+						'fontSize', 'fontColor', 'fontBackgroundColor', '|', 
+						'bold', 'italic', 'underline'
+					]
+				}}
+				data={'This is my content'}
+				onChange={(event) => {
+					console.log(event)
+				}}
+			/>
 		</>
 	)
 }
@@ -84,18 +84,18 @@ If we want our editor to include all of the available features, then we just use
 In the case that we want to use most of the available features, except for a few, we can simply remove them.
 ```js
 ...
-    <CKEditor
-	    editor={Editor}
-        config={{
-            toolbar: {
-                removeItems: ['bold', 'fontColor', 'imageUpload']
-            }
-        }}
-	    data={'This is my content'}
-	    onChange={(event) => {
-		    console.log(event)
-	    }}
-    />
+	<CKEditor
+		editor={Editor}
+		config={{
+			toolbar: {
+				removeItems: ['bold', 'fontColor', 'imageUpload']
+			}
+		}}
+		data={'This is my content'}
+		onChange={(event) => {
+			console.log(event)
+		}}
+	/>
 ...
 ```
 For more ways to customize your editor, please visit the official [CKEditor5](https://ckeditor.com/docs/ckeditor5/latest/index.html) documentation.

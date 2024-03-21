@@ -29,10 +29,10 @@ Here is a [list](https://ckeditor.com/docs/ckeditor5/latest/installation/getting
 ## Installation
 In order to use CKEditor5, we need to install two packages. Open a terminal in your project and run the following commands to install both of them:
 
-1. Official [CKEditor 5](https://ckeditor.com/docs/ckeditor5/latest/installation/integrations/react.html) rich text editor component for React
+1. Official [CKEditor 5](https://ckeditor.com/docs/ckeditor5/latest/installation/integrations/react.html) rich text editor component for React<br />
 `npm i @ckeditor/ckeditor5-react`
 
-2. This custom build of the CKEditor5 for React
+2. This custom build of the CKEditor5 for React<br />
 `npm i react-ckeditor5-custom`
 
 ## Usage
